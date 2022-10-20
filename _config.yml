@@ -18,10 +18,10 @@ github_username: "YSQ-1018"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-# theme: "minima"
-remote-theme: jekyll/minima
-minima:
-  skin: dark
+theme: "minima"
+# remote-theme: jekyll/minima
+# minima:
+#   skin: dark
 
 rss: rss
 
@@ -32,7 +32,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
+#   - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
